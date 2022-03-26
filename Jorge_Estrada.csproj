@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-Jorge_Estrada-50CE5833-FD91-456D-B975-A1CE02C3F030</UserSecretsId>
+    <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20220325035305_prdx.cs" />
+    <Compile Remove="Migrations\20220325035305_prdx.Designer.cs" />
+    <Compile Remove="Migrations\20220325042032_prddx.cs" />
+    <Compile Remove="Migrations\20220325042032_prddx.Designer.cs" />
+    <Compile Remove="Migrations\20220325042139_prddx.cs" />
+    <Compile Remove="Migrations\20220325042139_prddx.Designer.cs" />
+    <Compile Remove="Migrations\20220325043726_pdx.cs" />
+    <Compile Remove="Migrations\20220325043726_pdx.Designer.cs" />
+    <Compile Remove="Migrations\20220325044052_pdx.cs" />
+    <Compile Remove="Migrations\20220325044052_pdx.Designer.cs" />
+    <Compile Remove="Migrations\20220325044757_px.cs" />
+    <Compile Remove="Migrations\20220325044757_px.Designer.cs" />
+    <Compile Remove="Migrations\20220325044853_ppx.cs" />
+    <Compile Remove="Migrations\20220325044853_ppx.Designer.cs" />
+    <Compile Remove="Migrations\20220325045434_dpx.cs" />
+    <Compile Remove="Migrations\20220325045434_dpx.Designer.cs" />
+    <Compile Remove="Migrations\20220325045752_dpcx.cs" />
+    <Compile Remove="Migrations\20220325045752_dpcx.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.22" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.21" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.21" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.21" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.21">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.22" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Images\" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
+</Project>
